@@ -1,17 +1,51 @@
+body{
+        padding-top: 70px;
+    }
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+	padding: 0;
+	height: 100px;
+
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #002658 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #002658 !important;
+}
 .bg-1{
 	background-color: #002658;
 	color: white;
+	background-image: url("design/img/computer.png");
+	background-attachment: fixed;
+	height: 600px;
 	
+}
+.logo{
+	opacity: .8;
+}
+.logo-small{
+	font-size: 40px;
+	color: #002658;
 }
 .bg-2{
 	background-color: #6DB33F;
 	font-size: 2.5rem;
 	font-weight: 200;
+	color: white;
+	padding-top: 150px;
 }
 .bg-3{
 	background-color: white;
 	padding-top: 50px;
      padding-bottom: 50px;
+	height: 500px;
 }
 .bg-4 {
 	background-color: #002658;
@@ -31,4 +65,29 @@
 h2{
 	padding-bottom: 20px;
 	color: #6DB33F;
+	font-size: 50px;
+}
+h3{
+	
+	color: #FFF;
+	font-size: 50px;
+}
+h4{
+	color: #002658;
+	padding-bottom: 5px;
+}
+.container{
+	padding-top: 20px;
+}
+#email-input{
+    width: 20em; 
+	height: 2em;
+	padding: 0 100px 0 100px;
+}
+#question-input{
+	width: 20em; 
+	height: 20em;
+}
+.sign-up-form ul{
+  float: right;
 }
